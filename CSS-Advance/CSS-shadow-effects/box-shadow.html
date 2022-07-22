@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.container {
+  padding: 10px;
+}
+
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+  margin: 20px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  margin: 20px;
+}
+.example11 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px 5px lightblue inset;
+}
+.example12 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+.example13 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: coral;
+  box-shadow: 10px 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Create Cards</h1>
+
+<p>The box-shadow property can be used to create paper-like cards:</p>
+
+<div class="card">
+  <div class="header">
+    <h1>1</h1>
+  </div>
+  
+  <div class="container">
+    <p>January 1, 2021</p>
+  </div>
+</div>
+
+<div id="example1">
+    <h2>Multiple shadows</h2>
+    <p>box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green:</p>
+  </div>
+  <br>
+  
+  <div id="example2">
+    <h2>Multiple shadows with blur effect</h2>
+    <p>box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green:</p>
+  </div>
+
+  <div class="example11">A div element with a blurred, lightblue, inset box-shadow.</div><br>
+  <div class="example12">A div element with a blurred, lightblue box-shadow, with a spread radius of 12px.</div><br>
+
+  <div class="example13">This is a div element with a box-shadow</div>
+</body>
+</html>
+
+
